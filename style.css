@@ -60,10 +60,5 @@ main {
     color: var(--primary)
 }
 #results {
-    justify-content: space-between;
-    align-items: center;
     padding: 0.5rem;
-}
-#results img {
-    justify-self: space-around;
 }

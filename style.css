@@ -5,23 +5,38 @@ html {
     --font-primary: #E6C229;
 }
 
+body {
+    margin: 0px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Audiowide", sans-serif;
     background-color: var(--primary);
+    padding: 0.5rem;
 }
 
 h1 {
     display: inline;
     align-self: flex-start;
     margin: 0px;
-    font-size: 2.5rem
+    font-size: 2.5rem;
+    color: var(--font-primary);
+    padding-left: 0.5rem;
 }
 
 nav {
     align-self: flex-end;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
 }
+nav a {
+    color: var(--font-primary);
+}
+nav a:hover {
+    font-weight: bold;
+}
+
 

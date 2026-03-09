@@ -2,11 +2,14 @@ html {
     font-size: 15px;
     --primary: #6610f2;
     --secondary: #1a8fe3;
+    --tertiary: #d11149;
     --font-primary: #E6C229;
+    --font-secondary: #f17105;
 }
 
 body {
     margin: 0px;
+    background-color: var(--secondary);
 }
 
 header {
@@ -17,7 +20,6 @@ header {
     background-color: var(--primary);
     padding: 0.5rem;
 }
-
 h1 {
     display: inline;
     align-self: flex-start;
@@ -39,4 +41,18 @@ nav a:hover {
     font-weight: bold;
 }
 
-
+main {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+    padding: 0.5rem;
+    background-color: var(--primary);
+}
+#searchBar {
+    padding: 0.5rem;
+}
+#results {
+    padding: 0.5rem;
+}

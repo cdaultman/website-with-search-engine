@@ -1,0 +1,27 @@
+html {
+    font-size: 15px;
+    --primary: #6610f2;
+    --secondary: #1a8fe3;
+    --font-primary: #E6C229;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Audiowide", sans-serif;
+    background-color: var(--primary);
+}
+
+h1 {
+    display: inline;
+    align-self: flex-start;
+    margin: 0px;
+    font-size: 2.5rem
+}
+
+nav {
+    align-self: flex-end;
+    font-size: 1.5rem
+}
+

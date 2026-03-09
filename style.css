@@ -48,11 +48,22 @@ main {
     flex-direction: column;
     margin: 5rem;
     padding: 0.5rem;
-    background-color: var(--primary);
+    background-color: var(--tertiary);
+    border: 3px solid var(--primary);
+    border-radius: 3%;
 }
 #searchBar {
     padding: 0.5rem;
 }
+#searchSubmit{
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--primary)
+}
 #results {
+    justify-content: space-between;
+    align-items: center;
     padding: 0.5rem;
+}
+#results img {
+    justify-self: space-around;
 }
